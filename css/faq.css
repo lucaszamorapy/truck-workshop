@@ -1,0 +1,40 @@
+.h6-faq {
+    color: #4F4A45 !important;
+}
+
+.h2-faq {
+    color: #4F4A45 !important;
+    position: relative !important;
+}
+
+.h2-faq span {
+    background: linear-gradient(90deg, #ED7D31 0%, #D06051 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.faq-lista {
+    width: 600px !important;
+    background-color: white;
+}
+.faq dt {
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    color: #777;
+    border-bottom: 2px solid #ED7D31;
+    
+}
+.faq dt:last-of-type {
+    border-bottom: none;
+}
+
+
+.faq dd {
+    width: 400px;
+    border-bottom:2px solid #ED7D31;
+    color: #4F4A45;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}

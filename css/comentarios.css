@@ -1,0 +1,18 @@
+#comentarios {
+    background: linear-gradient(90deg, #ED7D31 0%, #D06051 100%);
+}
+
+.comentarios-pattern-overlay.pattern-left {
+    top: 20%;
+    left: 0px;
+}
+
+.comentarios-pattern-overlay.pattern-right {
+    top: 35%;
+    right: 0px;
+}
+
+
+.truck img {
+    opacity: 0.5; /* Altere o valor conforme necessário (de 0 a 1) */
+}

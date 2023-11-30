@@ -1,0 +1,153 @@
+@import url(../css/menu.css);
+@import url(../css/clientes.css);
+@import url(../css/comentarios.css);
+@import url(../css/sobre.css);
+@import url(../css/servicos.css);
+@import url(../css/faq.css);
+@import url(../css/galeria.css);
+@import url(../css/mapa.css);
+@import url(../css/footer.css);
+
+body {
+  background-color: #f6f1ee !important;
+  font-family: "Roboto Condensed", sans-serif !important;
+  overflow-x: hidden;
+}
+
+p {
+  color: #4f4a45 !important;
+}
+
+.bg--light {
+  color: #f6f1ee;
+}
+
+.meu-box-shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  letter-spacing: 0.065rem;
+  text-transform: uppercase;
+  color: #4f4a45 !important;
+}
+
+.btn-primary {
+  background-image: linear-gradient(
+    to right,
+    #ed7d31 0%,
+    #d06051 51%,
+    #ed7d31 100%
+  );
+  background-size: 200% auto;
+  border: none !important;
+  transition: 0.7s all;
+  -webkit-transition: 0.7s all !important;
+}
+
+.btn-primary:hover {
+  background-position: right center;
+}
+
+.minha-border-radius-div {
+  border-radius: 20px;
+}
+
+.minha-border-radius {
+  border-radius: 5px;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.button-color {
+  background-color: #ed7d31 !important;
+}
+
+.js-accordion dt.ativo {
+  color: #ed7d31;
+  border-bottom: none;
+}
+
+.js-accordion dd {
+  display: none;
+}
+
+.js-accordion dt::after {
+  content: "↴";
+  margin-left: 10px;
+}
+
+.js-accordion dt.ativo::after {
+  content: "⬏";
+  color: #ed7d31;
+}
+
+.js-accordion dd.ativo {
+  display: block;
+  animation: slide 0.5s forwards;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    max-height: 200px;
+    opacity: 1;
+  }
+}
+
+@media screen and (width: 375px) {
+  .area-clientes {
+    margin: 0 !important;
+  }
+
+  .mapbox {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (width: 425px) {
+  .area-clientes {
+    margin: 0 !important;
+  }
+
+  .mapbox {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (width: 768px) {
+  .cliente-linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .area-clientes {
+    margin: 0 !important;
+  }
+
+  .mapbox {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .truck {
+    display: none;
+  }
+
+  .area-clientes {
+    margin: 0 !important;
+  }
+
+  .mapbox {
+    overflow-x: scroll;
+  }
+}

@@ -1,0 +1,9 @@
+.h2-galeria, .h6-galeira {
+    color: #4F4A45 !important;
+}
+
+.h2-galeria span {
+    background: linear-gradient(90deg, #ED7D31 0%, #D06051 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}

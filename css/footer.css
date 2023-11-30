@@ -1,0 +1,28 @@
+#footer {
+  background: #242424;
+}
+
+.h5-footer {
+  color: #ed7d31;
+  text-transform: uppercase;
+}
+
+.nav-list a {
+  color: white;
+}
+
+.nav-list a:hover {
+  color: #ed7d31;
+}
+
+.nav-list a:focus {
+  color: #ed7d31;
+}
+
+#second-footer {
+  background: #ed7d31;
+}
+
+.developer a {
+  color: white;
+}

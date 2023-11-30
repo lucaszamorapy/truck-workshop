@@ -1,0 +1,52 @@
+.h6-mapa {
+  color: #4f4a45 !important;
+}
+
+.h2-mapa {
+  color: #4f4a45 !important;
+}
+
+.h2-mapa span {
+  background: linear-gradient(90deg, #ed7d31 0%, #d06051 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.h2-horario,
+.h2-socias {
+  color: #4f4a45 !important;
+}
+
+.h6-horario {
+  left: -2px;
+  padding-left: 10px;
+  color: #4f4a45 !important;
+}
+.h6-horario::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 20px;
+  background: #ed7d31;
+  position: absolute;
+  left: -5px;
+}
+
+.h6-social {
+  left: -2px;
+  padding-left: 10px;
+  color: #4f4a45 !important;
+}
+.h6-social::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 20px;
+  background: #ed7d31;
+  position: absolute;
+  left: -5px;
+}
+
+.social-div {
+  width: 55px;
+}

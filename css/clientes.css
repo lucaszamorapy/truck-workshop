@@ -1,0 +1,30 @@
+.area-clientes {
+    margin-top: 100px !important;
+}
+
+
+.clientes-h6 {
+    letter-spacing: .065rem;
+    text-transform: uppercase;
+    margin-bottom: 100px !important;
+    color: #4F4A45 !important;
+    position: relative;
+}
+
+.clientes-h6 span {
+    background: linear-gradient(90deg, #ED7D31 0%, #D06051 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+img.logo-image {
+    filter: saturate(0);
+    opacity: 50%;
+    transition: ease-in 0.2s;
+}
+  
+img.logo-image:hover {
+    filter: saturate(100%);
+    opacity: 1;
+}

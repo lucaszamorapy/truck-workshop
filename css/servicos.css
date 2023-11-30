@@ -1,0 +1,124 @@
+.items {
+    width: 300px !important;
+    height: 500px;
+    filter: saturate(0);
+    opacity: 50%;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    position: relative;
+}
+
+.items:hover {
+    filter: saturate(100%);
+    opacity: 1;
+    scale: 1.025;
+    /* Aumenta a escala durante o hover */
+    z-index: 1;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(237, 125, 49, 0.46) 217.91%);
+    box-shadow: 0px 72px 49px -51px rgba(237, 125, 49, 0.46);
+}
+
+
+.container-imagem {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.h6-servicos {
+    color: #4F4A45 !important;
+}
+
+.h2-servicos {
+    color: #4F4A45 !important;
+    position: relative;
+}
+
+.h2-servicos span {
+    background: linear-gradient(90deg, #ED7D31 0%, #D06051 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+.text-trabalho h6 {
+    text-transform: uppercase;
+    font-size: 1rem !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ED7D31;
+    margin: 0px;
+}
+
+.lista-servicos {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    left: -2px;
+    padding-left: 10px;
+}
+
+.h6-lista {
+    padding-left: 10px;
+}
+
+.h6-lista::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 5px;
+    background: #ED7D31;
+    position: absolute;
+    top: 7px;
+    margin-right: 100px;
+    left: -5px;
+}
+
+
+.saber-mais {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #ED7D31 0%, #D06051 51%, #ED7D31 100%);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.saber-mais::before,
+.saber-mais::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+
+.saber-mais::before {
+    width: 60%;
+    height: 10%;
+    top: 45%;
+    left: 20%;
+}
+
+.saber-mais::after {
+    width: 10%;
+    height: 60%;
+    top: 20%;
+    left: 45%;
+}
