@@ -67,6 +67,16 @@ h3 {
   background-color: #ed7d31 !important;
 }
 
+.whatsapp {
+  position: fixed !important;
+  bottom: 50px;
+  right: 50px;
+  z-index: 9999;
+}
+.whatsapp img {
+  width: 65px;
+}
+
 .js-accordion dt.ativo {
   color: #ed7d31;
   border-bottom: none;
@@ -110,6 +120,10 @@ h3 {
   .mapbox {
     overflow-x: scroll;
   }
+
+  .whatsapp {
+    right: 15px;
+  }
 }
 
 @media screen and (width: 425px) {
@@ -119,6 +133,10 @@ h3 {
 
   .mapbox {
     overflow-x: scroll;
+  }
+
+  .whatsapp {
+    right: 15px;
   }
 }
 
