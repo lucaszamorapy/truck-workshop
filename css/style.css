@@ -72,10 +72,14 @@ h3 {
   bottom: 50px;
   right: 50px;
   z-index: 9999;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
 }
+
 .whatsapp img {
   width: 65px;
 }
+
 
 .js-accordion dt.ativo {
   color: #ed7d31;
@@ -111,6 +115,22 @@ h3 {
     opacity: 1;
   }
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 125, 38, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 20px rgba(0, 128, 0, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 128, 0, 0);
+  }
+}
+
 
 @media screen and (width: 375px) {
   .area-clientes {
