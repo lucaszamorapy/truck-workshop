@@ -1,3 +1,16 @@
+.h6-servicos {
+  color: #4f4a45;;
+}
+
+.h2-servicos {
+  color: #4f4a45;
+}
+
+.h2-servicos span {
+  background: linear-gradient(90deg, #ed7d31 0%, #d06051 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 .img-overlay {
   position: relative;

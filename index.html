@@ -289,7 +289,7 @@
         <div class="container py-5">
             <h6 class="h6-galeria px-4">CONFIRA NOSSA GALERIA</h6>
             <h2 class="h2-galeria fw-bold display-4 mb-4 px-4">DESCUBRA <span>QUEM</span> SOMOS</h2>
-            <div class="row mt-5 m-2">
+            <div class="row mt-5 m-2 px-2">
                 <div class="col-md-4">
                     <img class="img-fluid mb-4" src="img/galeria/foto-1.jpg" alt="Foto 1">
                     <img class="img-fluid mb-4" src="img/galeria/foto-2.jpg" alt="Foto 2">
@@ -359,27 +359,83 @@
             <h6 class="h6-mapa px-4"><span>ONDE</span> NÓS FICAMOS</h6>
             <h2 class="h2-mapa fw-bold display-4 mb-4 px-4">COMO <span>CHEGAR</span></h2>
             <div class="row m-2">
-                <div class="col-md-6 col-12 ">
+                <div class="mapa col-lg-6 d-flex justify-content-center align-items-center">
                     <div class="mapbox position-relative">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.039328940932!2d-46.38291682374142!3d-23.959049376324923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1ca2219f99bd%3A0xd411f2e99faf7a25!2sR.%20Adolfo%20Cavalcante%20-%20Vila%20Melo%2C%20S%C3%A3o%20Vicente%20-%20SP%2C%2011370-140!5e0!3m2!1spt-BR!2sbr!4v1701122986197!5m2!1spt-BR!2sbr"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d911.3475519327217!2d-46.2959503303754!3d-23.9819941733254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce02181e0565b9%3A0xc304e52fbc09e0f0!2sR.%20Prof.%20Carlos%20Escobar%2C%20122%20-%20Ponta%20da%20Praia%2C%20Santos%20-%20SP%2C%2011030-030!5e0!3m2!1spt-BR!2sbr!4v1701731156459!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <div class="col-md-6 col-12">
-                    <h2 class="h2-horario fw-bold m-2">Horário de Funcionamento</h2>
-                    <h6 class="h6-horario position-relative m-3">Seg à Sex</h6>
-                    <h6 class="h6-horario position-relative m-3">Das 09h às 18h</h6>
-                    <h6 class="h6-horario position-relative m-3">Estacionamento no local</h6>
-                    <h2 class="h2-socias fw-bold m-2 mt-5">Redes Socias</h2>
-                    <div class="social-div ">
-                        <a href="#" class="h6-social text-decoration-none position-relative d-block m-3">Twitter</a>
-                        <a href="#" class="h6-social text-decoration-none position-relative d-block m-3">Instagram</a>
-                        <a href="#" class="h6-social text-decoration-none position-relative d-block m-3">Linkedin</a>
+                <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 p-1 d-flex justify-content-center align-items-center">
+                            <div class="mode d-flex justify-content-between flex-column align-items-center">
+                                <!-- Conteúdo da coluna 1 -->
+                                <div class="row">
+                                    <div class="col-4">
+                                        <iconify-icon class="icon-work p-2 minha-border-radius"
+                                            icon="material-symbols:work"></iconify-icon>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="h6-icon fw-bold">Segunda à Sexta</h6>
+                                        <h6>09h até às 18h</h6>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100 d-block"><a href="#inicio" class="text-decoration-none">Agendar</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 p-1 d-flex justify-content-center align-items-center">
+                            <div class="mode d-flex justify-content-between flex-column align-items-center">
+                                <!-- Conteúdo da coluna 2 -->
+                                <div class="row">
+                                    <div class="col-4">
+                                        <iconify-icon class="icon-work p-2 minha-border-radius"
+                                            icon="mdi:telephone"></iconify-icon>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="h6-icon fw-bold">Entre em contato</h6>
+                                        <h6>(13) 99151-9647</h6>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100 d-block"><a href="tel:+5513991519647" class="text-decoration-none">Ligar Agora</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-lg-6 col-12 p-1 d-flex justify-content-center align-items-center">
+                            <div class="mode d-flex justify-content-between flex-column align-items-center">
+                                <!-- Conteúdo da coluna 3 -->
+                                <div class="row">
+                                    <div class="col-4">
+                                        <iconify-icon class="icon-work p-2 minha-border-radius"
+                                            icon="teenyicons:pin-solid"></iconify-icon>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="h6-icon fw-bold">Referência</h6>
+                                        <h6>Society Pé na Bola</h6>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100 d-block"><a href="https://www.google.com/maps/place/R.+Prof.+Carlos+Escobar,+122+-+Ponta+da+Praia,+Santos+-+SP,+11030-030/@-23.9819942,-46.2959503,19z/data=!3m1!4b1!4m6!3m5!1s0x94ce02181e0565b9:0xc304e52fbc09e0f0!8m2!3d-23.9819954!4d-46.2953066!16s%2Fg%2F11cslkszj7?entry=ttu" target= "_blank" class="text-decoration-none">Ver no Mapa</a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 p-1 d-flex justify-content-center align-items-center">
+                            <div class="mode d-flex justify-content-between flex-column align-items-center">
+                                <!-- Conteúdo da coluna 4 -->
+                                <div class="row">
+                                    <div class="col-4">
+                                        <iconify-icon class="icon-work p-2 minha-border-radius"
+                                            icon="basil:whatsapp-solid"></iconify-icon>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="h6-icon fw-bold">Entre em contato</h6>
+                                        <h6>(13) 99151-9647</h6>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100 d-block"><a href="https://wa.me//5513991519647?text=Olá%20gostaria%20de%20fazer%20um%20orçamento." class="text-decoration-none" target="_blank" >Mandar Mensagem</a></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </div>
     </section>
 
@@ -415,22 +471,26 @@
                 <div class="nav-list col-md-3 col-6 py-2">
                     <h5 class="h5-footer py-3 fw-bold">Links</h5>
                     <ul class="nav flex-column">
-                        <li class="mb-1"><a href="#mapa" class="nav-link p-0 ">Nossa localização</a>
+                        <li class="mb-1"><a href="#servicos" class="nav-link p-0 ">Nossos Serviços</a>
                         </li>
-                        <li class="mb-1"><a href="#sobre" class="nav-link p-0 ">Sobre nós</a>
+                        <li class="mb-1"><a href="#sobre" class="nav-link p-0 ">Sobre Nós</a>
                         </li>
-                        <li class="mb-1"><a href="#galeria" class="nav-link p-0 ">Galeria de fotos</a>
+                        <li class="mb-1"><a href="#galeria" class="nav-link p-0 ">Galeria de Fotos</a>
+                        </li>
+                        <li class="mb-1"><a href="#faq" class="nav-link p-0 ">Perguntas Frequentes</a>
+                        </li>
+                        <li class="mb-1"><a href="#mapa" class="nav-link p-0 ">Nossa Localização</a>
                         </li>
                     </ul>
                 </div>
                 <div class="nav-list col-md-3 col-6 py-2">
                     <h5 class="h5-footer py-3 fw-bold">Contato</h5>
                     <ul class="nav flex-column">
-                        <li class="mb-1"><a href="#" class="nav-link fw-normal p-0 ">R. Adolfo Cavalcanti, 36</a>
+                        <li class="mb-1"><a href="#" class="nav-link fw-normal p-0 ">R. Professor Carlos Escobar, 122</a>
                         </li>
-                        <li class="mb-1"><a href="#" class="nav-link p-0 ">(13) 99133-6772</a>
+                        <li class="mb-1"><a href="#" class="nav-link p-0 ">(13) 99151-9647</a>
                         </li>
-                        <li class="mb-1"><a href="#" class="nav-link p-0 ">postodemolas@gmail.com</a>
+                        <li class="mb-1"><a href="#" class="nav-link p-0 ">zamoravaldiney@gmail.com</a>
                         </li>
                     </ul>
                 </div>
@@ -442,7 +502,7 @@
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 pt-4">
                 <div class="col-md-6 d-flex align-items-center">
-                    <p>© 2023 Posto de Molas Gallo - Todos os direitos reservados</p>
+                    <p>© 2023 VL Zamora - Todos os direitos reservados</p>
     
                 </div>
                 <div class="developer col-md-6 d-flex align-items-center justify-content-end">
