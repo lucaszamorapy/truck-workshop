@@ -21,6 +21,7 @@
   gap: 1rem;
   transition: all 300ms ease-in;
   background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .icon-work {
@@ -35,8 +36,14 @@
   text-transform: uppercase;
 }
 
+.mapbox {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom:  10px solid #ed7d31;
+  border-left:  10px solid #ed7d31;
+}
+
 @media (max-width: 1024px) {
- .mapa {
+ .mapa-google {
   margin-bottom: 1rem;
  }
 }
