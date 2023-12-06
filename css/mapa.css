@@ -47,3 +47,9 @@
   margin-bottom: 1rem;
  }
 }
+
+@media (max-width: 425px) {
+  .mode {
+    width: 95%;
+  }
+ }
