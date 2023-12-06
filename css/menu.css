@@ -2,6 +2,34 @@
   background: #f6f1ee;
   z-index: 1000;
 }
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+nav.navbar {
+  z-index: 999999;
+  background-color: #f6f1ee !important;
+}
+
+.offcanvas-header {
+  background-color: #f6f1ee ;
+}
+
+.offcanvas-body {
+  border: none !important;
+  background-color: #f6f1ee !important;
+}
+
+.offcanvas-header .btn-close{
+  color: #ed7d31 !important;
+}
+
+.navbar-toggler-icon {
+  color: #ed7d31 !important;
+}
+
 .nav-menu li a {
   text-decoration: none !important;
   color: #313131;
@@ -77,3 +105,8 @@ form.hero-form {
 .hero-form input {
   background-color: #f7e4d8;
 }
+
+
+
+
+

@@ -25,21 +25,50 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <nav
-                class="nav-menu js-menu navbar navbar-expand-lg meu-box-shadow d-flex justify-content-center position-fixed ">
-                <ul class="d-flex d-md-flex d-lg-flex gap-5 mt-4 d-none px-3 ">
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#inicio">Contato</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#mapa">Mapa</a></li>
-                </ul>
+    <nav class="nav-menu meu-box-shadow navbar navbar-expand-lg bg-white navbar-light container-fluid py-3 position-fixed ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/main-logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav align-items-center justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase px-3" aria-current="page"
+                                href="#inicio">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase  px-3" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase  px-3" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase  px-3" href="#galeria">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase  px-3" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase  px-3" href="#inicio">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase  px-3" href="#mapa">Mapa</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+    </nav>
+    
+    
     </div>
     <section class="position-relative overflow-hidden py-4" id="inicio" style="background: url(img/header1.png);">
             <div class=" texto-e-forms container py-5">
