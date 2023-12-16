@@ -132,33 +132,36 @@
                     </ul>
                 </div>
                 <div class=" col-md-5 offset-md-1">
-                    <form class="hero-form p-5">
+                    <form class="hero-form p-5 " action="https://api.staticforms.xyz/submit" method="post">
                         <h3 class="fw-bold mb-4 text-center">Entre em contato</h3>
 
                         <div class="mb-4">
-                            <label for="nome" class="form-label mb-0">Primeiro Nome</label>
-                            <input type="text" class="form-control border-0" id="nome">
+                            <label for="nome"  class="form-label mb-0">Primeiro Nome</label>
+                            <input type="text" name="name" class="form-control border-0" id="nome">
                         </div>
                         <div class="mb-3">
                             <label for="sobrenome" class="form-label mb-0">Sobrenome</label>
-                            <input type="text" class="form-control border-0" id="sobrenome">
+                            <input type="text" name="name" class="form-control border-0" id="sobrenome">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label mb-0">Email</label>
-                            <input type="email" class="form-control border-0" id="email">
+                            <input type="email" name="email" class="form-control border-0" id="email">
                         </div>
                         <div class="mb-3">
                             <label for="celular" class="form-label mb-0">Celular</label>
-                            <input type="text" class="form-control border-0" id="celular">
+                            <input type="text" name="phone" class="form-control border-0" id="celular">
                         </div>
                         <div class="mb-3">
                             <label for="mensagem" class="form-label mb-0">Mensagem</label>
-                            <input type="text" class="form-control border-0" id="mensagem">
+                            <input type="text" name="message" class="form-control border-0" id="mensagem">
                         </div>
 
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-lg fw-bold">ENVIAR</button>
+                            <button type="submit" value="Submit" data-modal="enviar" class="btn btn-primary btn-lg fw-bold">ENVIAR</button>
                         </div>
+                        <input type="text" name="honeypot" style="display:none">
+                        <input type="hidden" name="accessKey" value="03f1f54f-aff7-451b-8434-6738ba093ba0">
+                        <input type="hidden" name="redirectTo" value="http://localhost/Posto%20de%20Molas/index.html#inicio">
                     </form>
 
                 </div>
@@ -574,6 +577,14 @@
             </footer>
     </section>
 
+
+    <section class="modal-container p-5" data-modal="container">
+        <div class="modal-email p-5 bg-white position-relative">
+          <button data-modal="fechar" class="fechar position-absolute">X</button>
+          <h4 class="text-center">Email enviado com <span class="text-green">sucesso!</span></h4>
+        </div>
+      </section>
+  
 
 
 
