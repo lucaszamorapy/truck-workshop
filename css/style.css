@@ -145,6 +145,12 @@ h3 {
   }
 }
 
+@media screen and (width: 320px) {
+  .mapbox {
+    overflow-x: scroll;
+  }
+}
+
 @media screen and (width: 375px) {
   .area-clientes {
     margin: 0 !important;
@@ -152,6 +158,7 @@ h3 {
 
   .mapbox {
     overflow-x: scroll;
+    width: 400px;
   }
 
   .whatsapp {
