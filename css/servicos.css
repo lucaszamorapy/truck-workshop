@@ -1,5 +1,5 @@
 .h6-servicos {
-  color: #4f4a45;;
+  color: #4f4a45;
 }
 
 .h2-servicos {
@@ -24,7 +24,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ED7D31;
+  color: #ed7d31;
   font-size: 20px;
   font-weight: bold;
   opacity: 0; /* Inicialmente, o texto é transparente */
@@ -32,7 +32,7 @@
 }
 
 .img-overlay:hover .overlay-text {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .img-servico img {
