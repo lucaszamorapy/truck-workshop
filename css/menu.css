@@ -14,7 +14,7 @@ nav.navbar {
 }
 
 .offcanvas-header {
-  background-color: #f6f1ee ;
+  background-color: #f6f1ee;
 }
 
 .offcanvas-body {
@@ -22,7 +22,7 @@ nav.navbar {
   background-color: #f6f1ee !important;
 }
 
-.offcanvas-header .btn-close{
+.offcanvas-header .btn-close {
   color: #ed7d31 !important;
 }
 
@@ -68,7 +68,7 @@ nav.navbar {
 }
 
 .h6-header {
-  color: #4f4a45;
+  color: #f6f1ee;
 }
 
 .h2-header {
@@ -76,7 +76,7 @@ nav.navbar {
 }
 
 .p-header {
-  color: #4f4a45;
+  color: #f6f1ee;
 }
 
 form.hero-form {
@@ -105,8 +105,3 @@ form.hero-form {
 .hero-form input {
   background-color: #f7e4d8;
 }
-
-
-
-
-
